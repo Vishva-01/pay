@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receipt</title>
+</head>
+<body>
+    <h1>Payment Receipt</h1>
+    <p><strong>Order ID:</strong> {{ order.id }}</p>
+    <p><strong>Amount:</strong> ₹{{ order.amount / 100 }}</p>
+    <p><strong>Currency:</strong> {{ order.currency }}</p>
+    <p><strong>Status:</strong> {{ order.status }}</p>
+    <p><strong>Receipt:</strong> {{ order.receipt }}</p>
+    <p>Thank you for your payment!</p>
+</body>
+</html>
